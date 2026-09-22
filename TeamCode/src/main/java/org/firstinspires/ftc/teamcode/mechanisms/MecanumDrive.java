@@ -54,7 +54,7 @@ public class MecanumDrive {
         frontLeftMotor.setPower(maxSpeed * (frontLeftPower / maxPower));
         backLeftMotor.setPower(maxSpeed * (backLeftPower / maxPower));
         frontRightMotor.setPower(maxSpeed * (frontRightPower / maxPower));
-        backRightMotor.setPower(maxSpeed * (backLeftPower / maxPower));
+        backRightMotor.setPower(maxSpeed * (backRightPower / maxPower));
     }
 
     public void driveFieldRelative(double forward, double strafe, double rotate) {
